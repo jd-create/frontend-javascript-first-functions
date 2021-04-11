@@ -89,4 +89,10 @@ console.log(wrapper("kaas", "Q"));
 // createDetailString({ firstName: 'Jan', lastName: 'Jansen', profession: 'docent'}) geeft "Het beroep vam Jan Jansen is docent."
 // createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}) geeft "Het beroep vam Kees Klaasen is brandweerman."
 
+function createDetailString(firstName, lastName, profession) {
+  return "Het beroep van " + firstName + " " + lastName + " is " + profession + ".";
+}
 
+console.log(createDetailString("Jennifer", "Demeijer-van Driel", "autorisatiebeheerder"));
+console.log(createDetailString("Jan", "Jansen", "docent"));
+console.log(createDetailString("Kees", "Klaasen", "brandweerman"));
