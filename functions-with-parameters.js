@@ -60,7 +60,12 @@ console.log(merge("zoet","sappig"));
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
 
+function calculateDogYears(dogAge) {
+  return "Jouw hond is " + dogAge * 7 + " jaar oud in mensenjaren."
+}
 
+console.log(calculateDogYears(6));
+console.log(calculateDogYears(2));
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
