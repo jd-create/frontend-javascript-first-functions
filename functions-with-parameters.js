@@ -16,8 +16,13 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
+const name = "Jennifer"
 
+function greeter(name) {
+  return "Hoi " + name + "!";
+}
 
+console.log(greeter("Kees"));
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
@@ -26,7 +31,13 @@ console.log(result);
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
 
+function minutesToSeconds(minutes) {
+  return minutes * 60;
+}
 
+console.log(minutesToSeconds(1));
+console.log(minutesToSeconds(3));
+console.log(minutesToSeconds(23));
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd merge, die twee strings verwacht en deze aan elkaar geplakt teruggeeft.
@@ -35,7 +46,12 @@ console.log(result);
 // merge("abra", "cadabra") geeft "abracadabra"
 // merge("zoet", "sappig") geeft "zoetsappig"
 
+function merge(string1, string2) {
+  return string1 + string2;
+}
 
+console.log(merge("abra","cadabra"));
+console.log(merge("zoet","sappig"));
 
 
 /* Opdracht  4 */
